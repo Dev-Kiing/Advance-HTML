@@ -15,7 +15,7 @@ Welcome to my Frontend HTML assignment! This project showcases the basic structu
    - Chicken and Waffles
    - Corn Dogs
 
-3. **Media Page** – [media.html](media.html)  
+3. **Media Page** – [media.html](multimedia.html)  
    Features a 🎵 personal soundtrack: *Je te laisserai des mots*  
    and a 🎬 22-second video of Sweet Potato Casserole being made.
 
