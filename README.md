@@ -29,7 +29,7 @@ Welcome to my Frontend HTML assignment! This project showcases the basic structu
 
 After GitHub Pages is enabled:
 
-👉 [Visit the live website](dev-kiing.github.io/Advance-HTML/)
+👉 [Visit the live website](https://github.com/Dev-Kiing/Advance-HTML.git)
 
 ---
 
