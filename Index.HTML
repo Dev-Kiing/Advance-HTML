@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Order Form</title>
+</head>
+<body>
+    <nav>
+  <a href="index.html">Form</a> |
+  <a href="favorite-foods.html">Ingredients</a> |
+  <a href="multimedia.html">Media</a>
+</nav>
+  <header>
+    <h1 Order Your Favorite Food</h1>
+    <p>Welcome to King-Solomon's kitchen! Fill out the form below to order delicious meals prepared with love.</p>
+  </header>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="name">Full Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="phone">Phone Number:</label><br />
+      <input type="tel" id="phone" name="phone" /><br /><br />
+    </fieldset>
+
+    <fieldset>
+      <legend>Select Your Meal</legend>
+      <input type="radio" id="sweet-potato" name="meal" value="Sweet Potato Casserole" />
+      <label for="sweet-potato">Sweet Potato Casserole</label><br />
+
+      <input type="radio" id="chicken-waffles" name="meal" value="Chicken and Waffles" />
+      <label for="chicken-waffles">Chicken and Waffles</label><br />
+
+      <input type="radio" id="corn-dogs" name="meal" value="Corn Dogs" />
+      <label for="corn-dogs">Corn Dogs</label><br /><br />
+    </fieldset>
+
+    <fieldset>
+      <legend>Add-ons</legend>
+      <input type="checkbox" id="fries" name="addons" value="Fries" />
+      <label for="fries">Fries</label><br />
+
+      <input type="checkbox" id="drink" name="addons" value="Soft Drink" />
+      <label for="drink">Soft Drink</label><br />
+
+      <input type="checkbox" id="dessert" name="addons" value="Dessert" />
+      <label for="dessert">Dessert</label><br /><br />
+    </fieldset>
+
+    <fieldset>
+      <legend>Delivery Info</legend>
+      <label for="location">Choose a location:</label><br />
+      <select id="location" name="location">
+        <option value="home">Home</option>
+        <option value="office">Office</option>
+        <option value="pickup">Pick Up</option>
+      </select><br /><br />
+
+      <label for="instructions">Special Instructions:</label><br />
+      <textarea id="instructions" name="instructions" rows="4" cols="40" placeholder="e.g., No onions, extra spicy..."></textarea><br /><br />
+    </fieldset>
+
+    <button type="submit">Submit Order</button>
+  </form>
+
+  <footer>
+    <p>Made with by King-Solomon O. Atebefia</p>
+  </footer>
+</body>
+</html>
