@@ -9,7 +9,7 @@ Welcome to my Frontend HTML assignment! This project showcases the basic structu
 1. **Form Page** – [index.html](index.html)  
    A full form with input fields, radio buttons, dropdown, checkboxes, and a submit button.
 
-2. **Ingredients Page** – [ingredients.html](ingredients.html)  
+2. **Ingredients Page** – [ingredients.html](ingredients-cost.htm)  
    A table showing ingredients and costs for my favorite meals:
    - Sweet Potato Casserole
    - Chicken and Waffles
